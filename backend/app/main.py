@@ -4,11 +4,16 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.database.connection import engine, Base
+from app.database.models import User, Game, GameRound, CollectionRun
 from app.api import api_router
 from app.utils.logger import logger
 
 # Create tables
-Base.metadata.create_all(bind=engine)
+try:
+    Base.metadata.create_all(bind=engine)
+    logger.info("Database tables initialized successfully")
+except Exception as e:
+    logger.error(f"Failed to create database tables: {str(e)}")
 
 
 @asynccontextmanager
