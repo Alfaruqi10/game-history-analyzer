@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "20512184",
+    "game": "Book of Dead",
+    "provider": "Play'n GO",
+    "round_id": "ROUND_20260824_001",
+    "timestamp": "2026-08-24T08:00:00Z",
+    "bet_amount": 10000,
+    "win_amount": 5000,
+    "multiplier": 0.5,
+    "currency": "IDR",
+    "result": "LOSE"
+  },
+  {
+    "user_id": "20512184",
+    "game": "Book of Dead",
+    "provider": "Play'n GO",
+    "round_id": "ROUND_20260824_002",
+    "timestamp": "2026-08-24T08:15:00Z",
+    "bet_amount": 10000,
+    "win_amount": 35000,
+    "multiplier": 3.5,
+    "currency": "IDR",
+    "result": "WIN"
+  },
+  {
+    "user_id": "20512184",
+    "game": "Starburst",
+    "provider": "NetEnt",
+    "round_id": "ROUND_20260824_003",
+    "timestamp": "2026-08-24T08:30:00Z",
+    "bet_amount": 5000,
+    "win_amount": 0,
+    "multiplier": 0,
+    "currency": "IDR",
+    "result": "LOSE"
+  },
+  {
+    "user_id": "20512184",
+    "game": "Starburst",
+    "provider": "NetEnt",
+    "round_id": "ROUND_20260824_004",
+    "timestamp": "2026-08-24T08:45:00Z",
+    "bet_amount": 5000,
+    "win_amount": 15000,
+    "multiplier": 3.0,
+    "currency": "IDR",
+    "result": "WIN"
+  },
+  {
+    "user_id": "20512184",
+    "game": "Gonzo's Quest",
+    "provider": "NetEnt",
+    "round_id": "ROUND_20260824_005",
+    "timestamp": "2026-08-24T09:00:00Z",
+    "bet_amount": 20000,
+    "win_amount": 120000,
+    "multiplier": 6.0,
+    "currency": "IDR",
+    "result": "WIN"
+  }
+]
