@@ -1,6 +1,6 @@
-"""User schemas"""
-from pydantic import BaseModel
+"""User schema"""
 from datetime import datetime
+from pydantic import BaseModel
 
 
 class UserCreateSchema(BaseModel):
@@ -9,9 +9,11 @@ class UserCreateSchema(BaseModel):
     username: str
 
 
-class UserSchema(UserCreateSchema):
-    """User response schema"""
+class UserSchema(BaseModel):
+    """User schema"""
     id: int
+    external_user_id: str
+    username: str
     created_at: datetime
     updated_at: datetime
     
